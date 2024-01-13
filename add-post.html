@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Blog Website</title>
+    <!-- Custom CSS styling -->
+    <link rel="stylesheet" href="./Assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAV BAR START -->
+    <nav>
+      <div class="container nav-container">
+        <a href="./index.html" class="logo">
+          <h3>Code With <span>Sujit</span></h3>
+        </a>
+        <ul class="nav-link">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./sign-in.html">Sign In</a></li>
+          <li>
+            <div class="nav-profile">
+              <div class="profile-img">
+                <img src="./Assets/img/02.png" alt="" />
+              </div>
+              <ul>
+                <li>
+                  <a href="dashboard.html">Dashboard</a>
+                </li>
+                <li>
+                  <a href="">Logout</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <button class="phone-button Open"><i class="fa fa-bars"></i></button>
+        <button class="phone-button Close"><i class="fa fa-close"></i></button>
+      </div>
+    </nav>
+    <!-- NAV BAR END -->
+
+    <!-- Sign up form -->
+
+    <section class="form-section">
+      <div class="container form-section-container">
+        <h2>Add Post</h2>
+        <div class="message-alert message-alert-error">
+          <p>This is an error message</p>
+        </div>
+        <form action="" enctype="multipart/form-data">
+          <input type="text" placeholder="Title" />
+          <select>
+            <option value="0">Discovery</option>
+            <option value="1">Food</option>
+            <option value="2">Science & Technology</option>
+            <option value="3">Photography</option>
+            <option value="4">Travel</option>
+            <option value="5">Music</option>
+            <option value="6">Sports</option>
+            <option value="7">World</option>
+            <option value="8">Wild Life</option>
+          </select>
+
+          <div class="form-control inline">
+            <input type="checkbox" id="is-Featured" />
+            <label for="is-Featured" checked>Featured</label>
+          </div>
+
+          <div class="form-control">
+            <label for="thumb">Add Photos</label>
+            <input type="file" id="thumb" checked />
+          </div>
+
+          <textarea rows="10" placeholder="Body"></textarea>
+          <button type="submit" class="btn">Add post</button>
+          <small
+            >Dont have an account ?
+            <a href="sign-up.html">Add cateogry</a></small
+          >
+        </form>
+      </div>
+    </section>
+
+    <!-- Sign up form -->
+
+    <!-- Start footer -->
+
+    <footer>
+      <div class="footer-social">
+        <a href="">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <div class="container footer-container">
+        <article>
+          <h4>Category</h4>
+          <ul>
+            <li><a>Discovery</a></li>
+            <li><a>Food</a></li>
+            <li><a>Science & Technology</a></li>
+            <li><a>Photography</a></li>
+            <li><a>Travel</a></li>
+            <li><a>Music</a></li>
+            <li><a>Wild Life</a></li>
+            <li><a>World</a></li>
+            <li><a>Sports</a></li>
+          </ul>
+        </article>
+
+        <article>
+          <h4>Support</h4>
+          <ul>
+            <li><a>Online Support</a></li>
+            <li><a>Email</a></li>
+            <li><a>Phone Number</a></li>
+            <li><a>Social Support</a></li>
+            <li><a>Location</a></li>
+          </ul>
+        </article>
+
+        <article>
+          <h4>Parmalinks</h4>
+          <ul>
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Services</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </article>
+      </div>
+      <div class="footer-copy">Copyright &copf; Sujit</div>
+    </footer>
+
+    <!-- End footer -->
+
+    <!-- Custom JS link -->
+
+    <script src="./Assets/main.js"></script>
+  </body>
+</html>

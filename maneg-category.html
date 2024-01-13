@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Blog Website</title>
+    <!-- Custom CSS styling -->
+    <link rel="stylesheet" href="./Assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAV BAR START -->
+    <nav>
+      <div class="container nav-container">
+        <a href="./index.html" class="logo">
+          <h3>Code With <span>Sujit</span></h3>
+        </a>
+        <ul class="nav-link">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./sign-in.html">Sign In</a></li>
+          <li>
+            <div class="nav-profile">
+              <div class="profile-img">
+                <img src="./Assets/img/02.png" alt="" />
+              </div>
+              <ul>
+                <li>
+                  <a href="dashboard.html">Dashboard</a>
+                </li>
+                <li>
+                  <a href="">Logout</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <button class="phone-button Open"><i class="fa fa-bars"></i></button>
+        <button class="phone-button Close"><i class="fa fa-close"></i></button>
+      </div>
+    </nav>
+    <!-- NAV BAR END -->
+
+    <!-- ............Start dashboard ................... -->
+
+    <section class="dashboard">
+      <div class="container dashboard-container">
+        <aside>
+          <ul>
+            <li>
+              <a href="add-post.html">
+                <i class="fa fa-add"></i>
+                <h5>Add post</h5>
+              </a>
+            </li>
+            <li>
+              <a href="dashboard.html">
+                <i class="fa fa-pen"></i>
+                <h5>Manage post</h5>
+              </a>
+            </li>
+            <li>
+              <a href="add-user.html">
+                <i class="fa fa-user-plus"></i>
+                <h5>Add user</h5>
+              </a>
+            </li>
+            <li>
+              <a href="maneg-user.html">
+                <i class="fa fa-users"></i>
+                <h5>Manage user</h5>
+              </a>
+            </li>
+            <li>
+              <a href="add-category.html">
+                <i class="fa fa-mobile"></i>
+                <h5>Add category</h5>
+              </a>
+            </li>
+            <li>
+              <a href="maneg-category.html" class="active">
+                <i class="fa fa-list"></i>
+                <h5>Manage category</h5>
+              </a>
+            </li>
+          </ul>
+        </aside>
+        <main>
+          <table>
+            <h2>Manage CAtegory</h2>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Edit</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Discovery</td>
+                <td><a href="edit-category.html" class="btn sm">Edit</a></td>
+                <td>
+                  <a href="delete-category.html" class="btn sm danger"
+                    >Delete</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Fitness</td>
+                <td><a href="edit-category.html" class="btn sm">Edit</a></td>
+                <td>
+                  <a href="delete-category.html" class="btn sm danger"
+                    >Delete</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>World</td>
+                <td><a href="edit-category.html" class="btn sm">Edit</a></td>
+                <td>
+                  <a href="delete-category.html" class="btn sm danger"
+                    >Delete</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Discovery</td>
+                <td><a href="edit-category.html" class="btn sm">Edit</a></td>
+                <td>
+                  <a href="delete-category.html" class="btn sm danger"
+                    >Delete</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </main>
+      </div>
+    </section>
+
+    <!-- ............end dashboard ................... -->
+
+    <!-- Start footer -->
+
+    <footer>
+      <div class="footer-social">
+        <a href="">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <div class="container footer-container">
+        <article>
+          <h4>Category</h4>
+          <ul>
+            <li><a>Discovery</a></li>
+            <li><a>Food</a></li>
+            <li><a>Science & Technology</a></li>
+            <li><a>Photography</a></li>
+            <li><a>Travel</a></li>
+            <li><a>Music</a></li>
+            <li><a>Wild Life</a></li>
+            <li><a>World</a></li>
+            <li><a>Sports</a></li>
+          </ul>
+        </article>
+
+        <article>
+          <h4>Support</h4>
+          <ul>
+            <li><a>Online Support</a></li>
+            <li><a>Email</a></li>
+            <li><a>Phone Number</a></li>
+            <li><a>Social Support</a></li>
+            <li><a>Location</a></li>
+          </ul>
+        </article>
+
+        <article>
+          <h4>Parmalinks</h4>
+          <ul>
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Services</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </article>
+      </div>
+      <div class="footer-copy">Copyright &copf; Sujit</div>
+    </footer>
+
+    <!-- End footer -->
+
+    <!-- Custom JS link -->
+
+    <script src="./Assets/main.js"></script>
+  </body>
+</html>
